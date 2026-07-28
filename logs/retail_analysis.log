@@ -1,0 +1,195 @@
+26-07-28 12:54:39 WARN  Shell: Did not find winutils.exe: java.io.FileNotFoundException: java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset. -see https://wiki.apache.org/hadoop/WindowsProblems
+26-07-28 12:54:39 INFO  SparkContext: Running Spark version 3.4.4
+26-07-28 12:54:39 WARN  NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26-07-28 12:54:39 INFO  ResourceUtils: ==============================================================
+26-07-28 12:54:39 INFO  ResourceUtils: No custom resources configured for spark.driver.
+26-07-28 12:54:39 INFO  ResourceUtils: ==============================================================
+26-07-28 12:54:39 INFO  SparkContext: Submitted application: retail-local
+26-07-28 12:54:39 INFO  ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+26-07-28 12:54:39 INFO  ResourceProfile: Limiting resource is cpu
+26-07-28 12:54:39 INFO  ResourceProfileManager: Added ResourceProfile id: 0
+26-07-28 12:54:39 INFO  SecurityManager: Changing view acls to: DELL
+26-07-28 12:54:39 INFO  SecurityManager: Changing modify acls to: DELL
+26-07-28 12:54:39 INFO  SecurityManager: Changing view acls groups to: 
+26-07-28 12:54:39 INFO  SecurityManager: Changing modify acls groups to: 
+26-07-28 12:54:39 INFO  SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: DELL; groups with view permissions: EMPTY; users with modify permissions: DELL; groups with modify permissions: EMPTY
+26-07-28 12:54:40 INFO  Utils: Successfully started service 'sparkDriver' on port 60285.
+26-07-28 12:54:40 INFO  SparkEnv: Registering MapOutputTracker
+26-07-28 12:54:40 INFO  SparkEnv: Registering BlockManagerMaster
+26-07-28 12:54:40 INFO  BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+26-07-28 12:54:40 INFO  BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+26-07-28 12:54:40 INFO  SparkEnv: Registering BlockManagerMasterHeartbeat
+26-07-28 12:54:40 INFO  DiskBlockManager: Created local directory at C:\Users\DELL\AppData\Local\Temp\blockmgr-edd519cc-0bb3-4843-a26d-9eb715948868
+26-07-28 12:54:40 INFO  MemoryStore: MemoryStore started with capacity 366.3 MiB
+26-07-28 12:54:40 INFO  SparkEnv: Registering OutputCommitCoordinator
+26-07-28 12:54:40 INFO  log: Logging initialized @3624ms to org.sparkproject.jetty.util.log.Slf4jLog
+26-07-28 12:54:40 INFO  JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+26-07-28 12:54:40 INFO  Server: jetty-9.4.54.v20240208; built: 2024-02-08T19:42:39.027Z; git: cef3fbd6d736a21e7d541a5db490381d95a2047d; jvm 1.8.0_492-b09
+26-07-28 12:54:40 INFO  Server: Started @3790ms
+26-07-28 12:54:40 INFO  AbstractConnector: Started ServerConnector@292a3694{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+26-07-28 12:54:40 INFO  Utils: Successfully started service 'SparkUI' on port 4040.
+26-07-28 12:54:40 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@6d7dd3ed{/,null,AVAILABLE,@Spark}
+26-07-28 12:54:40 INFO  Executor: Starting executor ID driver on host DESKTOP-MV8GB1M
+26-07-28 12:54:40 INFO  Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+26-07-28 12:54:40 INFO  Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 60305.
+26-07-28 12:54:40 INFO  NettyBlockTransferService: Server created on DESKTOP-MV8GB1M:60305
+26-07-28 12:54:40 INFO  BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+26-07-28 12:54:40 INFO  BlockManagerMaster: Registering BlockManager BlockManagerId(driver, DESKTOP-MV8GB1M, 60305, None)
+26-07-28 12:54:40 INFO  BlockManagerMasterEndpoint: Registering block manager DESKTOP-MV8GB1M:60305 with 366.3 MiB RAM, BlockManagerId(driver, DESKTOP-MV8GB1M, 60305, None)
+26-07-28 12:54:40 INFO  BlockManagerMaster: Registered BlockManager BlockManagerId(driver, DESKTOP-MV8GB1M, 60305, None)
+26-07-28 12:54:40 INFO  BlockManager: Initialized BlockManager: BlockManagerId(driver, DESKTOP-MV8GB1M, 60305, None)
+26-07-28 12:54:40 INFO  ContextHandler: Stopped o.s.j.s.ServletContextHandler@6d7dd3ed{/,null,STOPPED,@Spark}
+26-07-28 12:54:40 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@d7f6acb{/jobs,null,AVAILABLE,@Spark}
+26-07-28 12:54:40 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@5ebe927d{/jobs/json,null,AVAILABLE,@Spark}
+26-07-28 12:54:40 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@25111743{/jobs/job,null,AVAILABLE,@Spark}
+26-07-28 12:54:40 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@5b3b1241{/jobs/job/json,null,AVAILABLE,@Spark}
+26-07-28 12:54:40 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@2c19f617{/stages,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@12bf176f{/stages/json,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@5c75bea1{/stages/stage,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@68d8c80c{/stages/stage/json,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@714120a7{/stages/pool,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@7bda0578{/stages/pool/json,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@3e3ea47{/storage,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@1c1af8a8{/storage/json,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@622394d{/storage/rdd,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@7c10edb6{/storage/rdd/json,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@b4c8aa6{/environment,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@63bff2c9{/environment/json,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@9fea30f{/executors,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@43ad636c{/executors/json,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@19ff282f{/executors/threadDump,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@293ed23c{/executors/threadDump/json,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@4823b89{/static,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@280cf7f9{/,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@22dcd5e{/api,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@6f03a453{/jobs/job/kill,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@66ee05f0{/stages/stage/kill,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@73f74706{/metrics/json,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  retail_analysis: Spark Session created successfully
+26-07-28 12:54:41 INFO  SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+26-07-28 12:54:41 INFO  SharedState: Warehouse path is 'file:/C:/Users/DELL/OneDrive/Desktop/Retail_Analysis/spark-warehouse'.
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@3ff87e2c{/SQL,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@4b659599{/SQL/json,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@24958af7{/SQL/execution,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@501090fc{/SQL/execution/json,null,AVAILABLE,@Spark}
+26-07-28 12:54:41 INFO  ContextHandler: Started o.s.j.s.ServletContextHandler@3eff2cbb{/static/sql,null,AVAILABLE,@Spark}
+26-07-28 12:54:42 INFO  InMemoryFileIndex: It took 40 ms to list leaf files for 1 paths.
+26-07-28 12:54:45 INFO  InMemoryFileIndex: It took 2 ms to list leaf files for 1 paths.
+26-07-28 12:54:46 INFO  FileSourceStrategy: Pushed Filters: IsNotNull(order_status),EqualTo(order_status,CLOSED)
+26-07-28 12:54:46 INFO  FileSourceStrategy: Post-Scan Filters: isnotnull(order_status#21),(order_status#21 = CLOSED)
+26-07-28 12:54:47 INFO  CodeGenerator: Code generated in 442.3992 ms
+26-07-28 12:54:47 INFO  MemoryStore: Block broadcast_0 stored as values in memory (estimated size 348.6 KiB, free 366.0 MiB)
+26-07-28 12:54:47 INFO  MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 33.9 KiB, free 365.9 MiB)
+26-07-28 12:54:47 INFO  BlockManagerInfo: Added broadcast_0_piece0 in memory on DESKTOP-MV8GB1M:60305 (size: 33.9 KiB, free: 366.3 MiB)
+26-07-28 12:54:47 INFO  SparkContext: Created broadcast 0 from showString at NativeMethodAccessorImpl.java:0
+26-07-28 12:54:47 INFO  FileSourceScanExec: Planning scan with bin packing, max size: 134217728 bytes, open cost is considered as scanning 4194304 bytes.
+26-07-28 12:54:48 INFO  SparkContext: Starting job: showString at NativeMethodAccessorImpl.java:0
+26-07-28 12:54:48 INFO  DAGScheduler: Got job 0 (showString at NativeMethodAccessorImpl.java:0) with 1 output partitions
+26-07-28 12:54:48 INFO  DAGScheduler: Final stage: ResultStage 0 (showString at NativeMethodAccessorImpl.java:0)
+26-07-28 12:54:48 INFO  DAGScheduler: Parents of final stage: List()
+26-07-28 12:54:48 INFO  DAGScheduler: Missing parents: List()
+26-07-28 12:54:48 INFO  DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[3] at showString at NativeMethodAccessorImpl.java:0), which has no missing parents
+26-07-28 12:54:48 INFO  MemoryStore: Block broadcast_1 stored as values in memory (estimated size 15.8 KiB, free 365.9 MiB)
+26-07-28 12:54:48 INFO  MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 7.8 KiB, free 365.9 MiB)
+26-07-28 12:54:48 INFO  BlockManagerInfo: Added broadcast_1_piece0 in memory on DESKTOP-MV8GB1M:60305 (size: 7.8 KiB, free: 366.3 MiB)
+26-07-28 12:54:48 INFO  SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1540
+26-07-28 12:54:48 INFO  DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[3] at showString at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+26-07-28 12:54:48 INFO  TaskSchedulerImpl: Adding task set 0.0 with 1 tasks resource profile 0
+26-07-28 12:54:48 INFO  TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0) (DESKTOP-MV8GB1M, executor driver, partition 0, PROCESS_LOCAL, 9338 bytes) 
+26-07-28 12:54:48 INFO  Executor: Running task 0.0 in stage 0.0 (TID 0)
+26-07-28 12:54:48 INFO  FileScanRDD: Reading File path: file:///C:/Users/DELL/OneDrive/Desktop/Retail_Analysis/data/orders_1gb.csv, range: 0-134217728, partition values: [empty row]
+26-07-28 12:54:48 INFO  CodeGenerator: Code generated in 19.8981 ms
+26-07-28 12:54:48 INFO  CodeGenerator: Code generated in 11.4339 ms
+26-07-28 12:54:49 INFO  Executor: Finished task 0.0 in stage 0.0 (TID 0). 1918 bytes result sent to driver
+26-07-28 12:54:49 INFO  TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 719 ms on DESKTOP-MV8GB1M (executor driver) (1/1)
+26-07-28 12:54:49 INFO  TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+26-07-28 12:54:49 INFO  DAGScheduler: ResultStage 0 (showString at NativeMethodAccessorImpl.java:0) finished in 0.896 s
+26-07-28 12:54:49 INFO  DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+26-07-28 12:54:49 INFO  TaskSchedulerImpl: Killing all running tasks in stage 0: Stage finished
+26-07-28 12:54:49 INFO  DAGScheduler: Job 0 finished: showString at NativeMethodAccessorImpl.java:0, took 0.975655 s
+26-07-28 12:54:49 INFO  CodeGenerator: Code generated in 39.5192 ms
+26-07-28 12:54:49 INFO  FileSourceStrategy: Pushed Filters: IsNotNull(order_status),EqualTo(order_status,CLOSED),IsNotNull(order_customer_id)
+26-07-28 12:54:49 INFO  FileSourceStrategy: Post-Scan Filters: isnotnull(order_status#21),(order_status#21 = CLOSED),isnotnull(order_customer_id#20)
+26-07-28 12:54:49 INFO  FileSourceStrategy: Pushed Filters: IsNotNull(customer_id)
+26-07-28 12:54:49 INFO  FileSourceStrategy: Post-Scan Filters: isnotnull(customer_id#0)
+26-07-28 12:54:49 INFO  CodeGenerator: Code generated in 20.6907 ms
+26-07-28 12:54:49 INFO  MemoryStore: Block broadcast_2 stored as values in memory (estimated size 348.6 KiB, free 365.6 MiB)
+26-07-28 12:54:49 INFO  MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 34.0 KiB, free 365.5 MiB)
+26-07-28 12:54:49 INFO  BlockManagerInfo: Added broadcast_2_piece0 in memory on DESKTOP-MV8GB1M:60305 (size: 34.0 KiB, free: 366.2 MiB)
+26-07-28 12:54:49 INFO  SparkContext: Created broadcast 2 from $anonfun$withThreadLocalCaptured$1 at FutureTask.java:266
+26-07-28 12:54:49 INFO  FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+26-07-28 12:54:49 INFO  SparkContext: Starting job: $anonfun$withThreadLocalCaptured$1 at FutureTask.java:266
+26-07-28 12:54:49 INFO  DAGScheduler: Got job 1 ($anonfun$withThreadLocalCaptured$1 at FutureTask.java:266) with 1 output partitions
+26-07-28 12:54:49 INFO  DAGScheduler: Final stage: ResultStage 1 ($anonfun$withThreadLocalCaptured$1 at FutureTask.java:266)
+26-07-28 12:54:49 INFO  DAGScheduler: Parents of final stage: List()
+26-07-28 12:54:49 INFO  DAGScheduler: Missing parents: List()
+26-07-28 12:54:49 INFO  DAGScheduler: Submitting ResultStage 1 (MapPartitionsRDD[7] at $anonfun$withThreadLocalCaptured$1 at FutureTask.java:266), which has no missing parents
+26-07-28 12:54:49 INFO  MemoryStore: Block broadcast_3 stored as values in memory (estimated size 17.1 KiB, free 365.5 MiB)
+26-07-28 12:54:49 INFO  MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 7.9 KiB, free 365.5 MiB)
+26-07-28 12:54:49 INFO  BlockManagerInfo: Added broadcast_3_piece0 in memory on DESKTOP-MV8GB1M:60305 (size: 7.9 KiB, free: 366.2 MiB)
+26-07-28 12:54:49 INFO  SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:1540
+26-07-28 12:54:49 INFO  DAGScheduler: Submitting 1 missing tasks from ResultStage 1 (MapPartitionsRDD[7] at $anonfun$withThreadLocalCaptured$1 at FutureTask.java:266) (first 15 tasks are for partitions Vector(0))
+26-07-28 12:54:49 INFO  TaskSchedulerImpl: Adding task set 1.0 with 1 tasks resource profile 0
+26-07-28 12:54:49 INFO  TaskSetManager: Starting task 0.0 in stage 1.0 (TID 1) (DESKTOP-MV8GB1M, executor driver, partition 0, PROCESS_LOCAL, 9344 bytes) 
+26-07-28 12:54:49 INFO  Executor: Running task 0.0 in stage 1.0 (TID 1)
+26-07-28 12:54:49 INFO  FileScanRDD: Reading File path: file:///C:/Users/DELL/OneDrive/Desktop/Retail_Analysis/data/customers_sample.csv, range: 0-1674, partition values: [empty row]
+26-07-28 12:54:49 INFO  CodeGenerator: Code generated in 23.3676 ms
+26-07-28 12:54:49 INFO  CodeGenerator: Code generated in 7.9032 ms
+26-07-28 12:54:49 INFO  Executor: Finished task 0.0 in stage 1.0 (TID 1). 3361 bytes result sent to driver
+26-07-28 12:54:49 INFO  TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 79 ms on DESKTOP-MV8GB1M (executor driver) (1/1)
+26-07-28 12:54:49 INFO  TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+26-07-28 12:54:49 INFO  DAGScheduler: ResultStage 1 ($anonfun$withThreadLocalCaptured$1 at FutureTask.java:266) finished in 0.093 s
+26-07-28 12:54:49 INFO  DAGScheduler: Job 1 is finished. Cancelling potential speculative or zombie tasks for this job
+26-07-28 12:54:49 INFO  TaskSchedulerImpl: Killing all running tasks in stage 1: Stage finished
+26-07-28 12:54:49 INFO  DAGScheduler: Job 1 finished: $anonfun$withThreadLocalCaptured$1 at FutureTask.java:266, took 0.099923 s
+26-07-28 12:54:49 INFO  CodeGenerator: Code generated in 16.3647 ms
+26-07-28 12:54:49 INFO  MemoryStore: Block broadcast_4 stored as values in memory (estimated size 1025.0 KiB, free 364.5 MiB)
+26-07-28 12:54:49 INFO  MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 2.1 KiB, free 364.5 MiB)
+26-07-28 12:54:49 INFO  BlockManagerInfo: Added broadcast_4_piece0 in memory on DESKTOP-MV8GB1M:60305 (size: 2.1 KiB, free: 366.2 MiB)
+26-07-28 12:54:49 INFO  SparkContext: Created broadcast 4 from $anonfun$withThreadLocalCaptured$1 at FutureTask.java:266
+26-07-28 12:54:49 INFO  FileSourceStrategy: Pushed Filters: IsNotNull(order_status),EqualTo(order_status,CLOSED),IsNotNull(order_customer_id)
+26-07-28 12:54:49 INFO  FileSourceStrategy: Post-Scan Filters: isnotnull(order_status#21),(order_status#21 = CLOSED),isnotnull(order_customer_id#20)
+26-07-28 12:54:49 INFO  CodeGenerator: Code generated in 55.5565 ms
+26-07-28 12:54:49 INFO  MemoryStore: Block broadcast_5 stored as values in memory (estimated size 348.6 KiB, free 364.2 MiB)
+26-07-28 12:54:49 INFO  MemoryStore: Block broadcast_5_piece0 stored as bytes in memory (estimated size 33.9 KiB, free 364.1 MiB)
+26-07-28 12:54:49 INFO  BlockManagerInfo: Added broadcast_5_piece0 in memory on DESKTOP-MV8GB1M:60305 (size: 33.9 KiB, free: 366.2 MiB)
+26-07-28 12:54:49 INFO  SparkContext: Created broadcast 5 from showString at NativeMethodAccessorImpl.java:0
+26-07-28 12:54:49 INFO  FileSourceScanExec: Planning scan with bin packing, max size: 134217728 bytes, open cost is considered as scanning 4194304 bytes.
+26-07-28 12:54:50 INFO  SparkContext: Starting job: showString at NativeMethodAccessorImpl.java:0
+26-07-28 12:54:50 INFO  DAGScheduler: Got job 2 (showString at NativeMethodAccessorImpl.java:0) with 1 output partitions
+26-07-28 12:54:50 INFO  DAGScheduler: Final stage: ResultStage 2 (showString at NativeMethodAccessorImpl.java:0)
+26-07-28 12:54:50 INFO  DAGScheduler: Parents of final stage: List()
+26-07-28 12:54:50 INFO  DAGScheduler: Missing parents: List()
+26-07-28 12:54:50 INFO  DAGScheduler: Submitting ResultStage 2 (MapPartitionsRDD[11] at showString at NativeMethodAccessorImpl.java:0), which has no missing parents
+26-07-28 12:54:50 INFO  MemoryStore: Block broadcast_6 stored as values in memory (estimated size 19.5 KiB, free 364.1 MiB)
+26-07-28 12:54:50 INFO  MemoryStore: Block broadcast_6_piece0 stored as bytes in memory (estimated size 9.0 KiB, free 364.1 MiB)
+26-07-28 12:54:50 INFO  BlockManagerInfo: Added broadcast_6_piece0 in memory on DESKTOP-MV8GB1M:60305 (size: 9.0 KiB, free: 366.2 MiB)
+26-07-28 12:54:50 INFO  SparkContext: Created broadcast 6 from broadcast at DAGScheduler.scala:1540
+26-07-28 12:54:50 INFO  DAGScheduler: Submitting 1 missing tasks from ResultStage 2 (MapPartitionsRDD[11] at showString at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+26-07-28 12:54:50 INFO  TaskSchedulerImpl: Adding task set 2.0 with 1 tasks resource profile 0
+26-07-28 12:54:50 INFO  TaskSetManager: Starting task 0.0 in stage 2.0 (TID 2) (DESKTOP-MV8GB1M, executor driver, partition 0, PROCESS_LOCAL, 9338 bytes) 
+26-07-28 12:54:50 INFO  Executor: Running task 0.0 in stage 2.0 (TID 2)
+26-07-28 12:54:50 INFO  FileScanRDD: Reading File path: file:///C:/Users/DELL/OneDrive/Desktop/Retail_Analysis/data/orders_1gb.csv, range: 0-134217728, partition values: [empty row]
+26-07-28 12:54:50 INFO  CodeGenerator: Code generated in 13.3685 ms
+26-07-28 12:54:50 INFO  Executor: Finished task 0.0 in stage 2.0 (TID 2). 2959 bytes result sent to driver
+26-07-28 12:54:50 INFO  TaskSetManager: Finished task 0.0 in stage 2.0 (TID 2) in 291 ms on DESKTOP-MV8GB1M (executor driver) (1/1)
+26-07-28 12:54:50 INFO  TaskSchedulerImpl: Removed TaskSet 2.0, whose tasks have all completed, from pool 
+26-07-28 12:54:50 INFO  DAGScheduler: ResultStage 2 (showString at NativeMethodAccessorImpl.java:0) finished in 0.310 s
+26-07-28 12:54:50 INFO  DAGScheduler: Job 2 is finished. Cancelling potential speculative or zombie tasks for this job
+26-07-28 12:54:50 INFO  TaskSchedulerImpl: Killing all running tasks in stage 2: Stage finished
+26-07-28 12:54:50 INFO  DAGScheduler: Job 2 finished: showString at NativeMethodAccessorImpl.java:0, took 0.323130 s
+26-07-28 12:54:50 INFO  CodeGenerator: Code generated in 33.4753 ms
+26-07-28 12:54:50 INFO  SparkContext: SparkContext is stopping with exitCode 0.
+26-07-28 12:54:50 INFO  AbstractConnector: Stopped Spark@292a3694{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+26-07-28 12:54:50 INFO  SparkUI: Stopped Spark web UI at http://DESKTOP-MV8GB1M:4040
+26-07-28 12:54:50 INFO  MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+26-07-28 12:54:50 INFO  MemoryStore: MemoryStore cleared
+26-07-28 12:54:50 INFO  BlockManager: BlockManager stopped
+26-07-28 12:54:50 INFO  BlockManagerMaster: BlockManagerMaster stopped
+26-07-28 12:54:50 INFO  OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+26-07-28 12:54:50 INFO  SparkContext: Successfully stopped SparkContext
+26-07-28 12:54:50 INFO  retail_analysis: Spark session stopped successfully.
+26-07-28 12:54:50 INFO  ShutdownHookManager: Shutdown hook called
+26-07-28 12:54:50 INFO  ShutdownHookManager: Deleting directory C:\Users\DELL\AppData\Local\Temp\spark-ca78c528-f202-48c3-9d49-9af94e6b9a95
+26-07-28 12:54:50 INFO  ShutdownHookManager: Deleting directory C:\Users\DELL\AppData\Local\Temp\spark-8b7e6dfe-9060-42f7-8fc2-3102444c80e9
+26-07-28 12:54:50 INFO  ShutdownHookManager: Deleting directory C:\Users\DELL\AppData\Local\Temp\spark-ca78c528-f202-48c3-9d49-9af94e6b9a95\pyspark-ad223b68-bc7a-4d19-ba01-2fdb240351ce
